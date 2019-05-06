@@ -65,6 +65,7 @@
     "semver": "^5.5.0"
   },
   "devDependencies": {
+    "@lerna/package-graph": "link:../../core/package-graph",
     "@lerna/project": "link:../../core/project"
   }
 }

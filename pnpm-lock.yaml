@@ -395,6 +395,7 @@ importers:
       pacote: 9.5.0
       semver: 5.7.0
     devDependencies:
+      '@lerna/package-graph': 'link:../../core/package-graph'
       '@lerna/project': 'link:../../core/project'
     specifiers:
       '@lerna/batch-packages': 'file:../../utils/batch-packages'
@@ -409,6 +410,7 @@ importers:
       '@lerna/npm-publish': 'file:../../utils/npm-publish'
       '@lerna/output': 'file:../../utils/output'
       '@lerna/pack-directory': 'file:../../utils/pack-directory'
+      '@lerna/package-graph': 'link:../../core/package-graph'
       '@lerna/project': 'link:../../core/project'
       '@lerna/prompt': 'file:../../core/prompt'
       '@lerna/pulse-till-done': 'file:../../utils/pulse-till-done'
@@ -571,10 +573,12 @@ importers:
       '@lerna/filter-packages': 'link:../../utils/filter-packages'
       dedent: 0.7.0
     devDependencies:
+      '@lerna/package-graph': 'link:../package-graph'
       '@lerna/project': 'link:../project'
     specifiers:
       '@lerna/collect-updates': 'file:../../utils/collect-updates'
       '@lerna/filter-packages': 'file:../../utils/filter-packages'
+      '@lerna/package-graph': 'link:../package-graph'
       '@lerna/project': 'link:../project'
       dedent: ^0.7.0
   core/global-options:
@@ -917,10 +921,12 @@ importers:
       slash: 1.0.0
     devDependencies:
       '@lerna/package': 'link:../../core/package'
+      '@lerna/package-graph': 'link:../../core/package-graph'
     specifiers:
       '@lerna/child-process': 'file:../../core/child-process'
       '@lerna/describe-ref': 'file:../describe-ref'
       '@lerna/package': 'link:../../core/package'
+      '@lerna/package-graph': 'link:../../core/package-graph'
       minimatch: ^3.0.4
       npmlog: ^4.1.2
       slash: ^1.0.0
