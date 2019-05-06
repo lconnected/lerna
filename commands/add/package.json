@@ -43,5 +43,8 @@
     "p-map": "^1.2.0",
     "pacote": "^9.5.0",
     "semver": "^5.5.0"
+  },
+  "devDependencies": {
+    "@lerna/project": "link:../../core/project"
   }
 }
