@@ -35,5 +35,8 @@
     "figgy-pudding": "^3.5.1",
     "npm-lifecycle": "^2.1.1",
     "npmlog": "^4.1.2"
+  },
+  "devDependencies": {
+    "@lerna/package": "link:../../core/package"
   }
 }
